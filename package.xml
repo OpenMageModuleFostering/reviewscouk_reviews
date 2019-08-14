@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>reviewscouk_reviews</name>
-    <version>0.7.0</version>
+    <version>0.7.1</version>
     <stability>stable</stability>
     <license>GPL</license>
     <channel>community</channel>
     <extends/>
     <summary>Reviews.co.uk Integration Plugin</summary>
     <description>Reviews.co.uk Integration Plugin</description>
-    <notes>Change Rich Snippet to use JSON_LD Format.</notes>
+    <notes>Merchant and Product Rich Snippet Options</notes>
     <authors><author><name>Reviews.co.uk</name><user>Reviews</user><email>support@reviews.co.uk</email></author></authors>
-    <date>2016-03-29</date>
-    <time>16:23:25</time>
-    <contents><target name="magecommunity"><dir name="Reviewscouk"><dir name="Reviews"><dir name="Adminhtml"><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="Region.php" hash="65d7d2f061114099282e40a5353dc6a9"/></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="8c2c252ce4138fba41f0b3e1ed6877da"/></dir><dir name="Model"><file name="Observer.php" hash="09123a3589d7fa604adb8ff5822064a4"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="ReviewsController.php" hash="c39e013894681ece3d886041637cc1da"/></dir><file name="IndexController.php" hash="d6512ab7645eab3c191763ee217bfc61"/></dir><dir name="etc"><file name="adminhtml.xml" hash="1ef6673386095b6c8a7a7aefb654951b"/><file name="config.xml" hash="50a3b085446a1ba63aecbeeca5afaade"/><file name="system.xml" hash="757303270117f97ce1e9aa6a57f931b8"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Reviewscouk_Reviews.xml" hash="347761ff6c475622697073d62f52e014"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="reviews"><file name="dashboard.phtml" hash="925eeb5ee6bee1c7bf973f60008c1f3f"/><file name="export.phtml" hash="ab1225207cd4631941735c9a99594b65"/></dir></dir><dir name="layout"><file name="reviews_admin.xml" hash="3cdd4facfeb240634d81843cae1a5325"/></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="reviews_layout.xml" hash="18e2f32bc7d75d10645f7eb1730e43b3"/></dir><dir name="template"><dir name="reviews"><file name="product_reviews_widget.phtml" hash="3847d66e58638813eb3391c1fc49a683"/><file name="rich_snippet.phtml" hash="6868653c85b9ac76846db739fbe02b66"/><file name=".DS_Store" hash="4fe84b7db7aa067d7fd4b3ee082e4b2f"/></dir></dir></dir></dir></dir></target></contents>
+    <date>2016-03-30</date>
+    <time>10:05:16</time>
+    <contents><target name="magecommunity"><dir name="Reviewscouk"><dir name="Reviews"><dir name="Adminhtml"><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="Region.php" hash="65d7d2f061114099282e40a5353dc6a9"/></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="dcb85b6ee0848b6fd0aeefed0724a1c9"/></dir><dir name="Model"><file name="Observer.php" hash="09123a3589d7fa604adb8ff5822064a4"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="ReviewsController.php" hash="c39e013894681ece3d886041637cc1da"/></dir><file name="IndexController.php" hash="d6512ab7645eab3c191763ee217bfc61"/></dir><dir name="etc"><file name="adminhtml.xml" hash="1ef6673386095b6c8a7a7aefb654951b"/><file name="config.xml" hash="50a3b085446a1ba63aecbeeca5afaade"/><file name="system.xml" hash="757303270117f97ce1e9aa6a57f931b8"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Reviewscouk_Reviews.xml" hash="347761ff6c475622697073d62f52e014"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="reviews"><file name="dashboard.phtml" hash="925eeb5ee6bee1c7bf973f60008c1f3f"/><file name="export.phtml" hash="ab1225207cd4631941735c9a99594b65"/></dir></dir><dir name="layout"><file name="reviews_admin.xml" hash="3cdd4facfeb240634d81843cae1a5325"/></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="reviews_layout.xml" hash="18e2f32bc7d75d10645f7eb1730e43b3"/></dir><dir name="template"><dir name="reviews"><file name="product_reviews_widget.phtml" hash="3847d66e58638813eb3391c1fc49a683"/><file name="rich_snippet.phtml" hash="6e9381dc88d32275f36a53017d04e06e"/><file name=".DS_Store" hash="4fe84b7db7aa067d7fd4b3ee082e4b2f"/></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
