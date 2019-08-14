@@ -1,24 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>reviewscouk_reviews</name>
-    <version>0.8.0</version>
+    <version>0.8.1</version>
     <stability>stable</stability>
     <license>GPL</license>
     <channel>community</channel>
     <extends/>
     <summary>Reviews.co.uk Integration Plugin</summary>
     <description>Reviews.co.uk Integration Plugin</description>
-    <notes>New Static Widget Option&#xD;
-&#xD;
-Widget Translations&#xD;
-&#xD;
-Automate Feed Integration&#xD;
-&#xD;
-Queue API Include Source Param</notes>
+    <notes>Force Product Widget To Bottom</notes>
     <authors><author><name>Reviews.co.uk</name><user>Reviews</user><email>support@reviews.co.uk</email></author></authors>
-    <date>2016-07-01</date>
-    <time>15:42:53</time>
-    <contents><target name="magecommunity"><dir name="Reviewscouk"><dir name="Reviews"><dir name="Adminhtml"><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="Region.php" hash="65d7d2f061114099282e40a5353dc6a9"/><file name="Widget.php" hash="c7571f25487b816796e3bf7b8c502f44"/></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="a5c33a7d0958a9b224e52b2fa2811242"/></dir><dir name="Model"><file name="Observer.php" hash="625a3b0d0cccb42e8204568df78ce7d5"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="ReviewsController.php" hash="c39e013894681ece3d886041637cc1da"/></dir><file name="IndexController.php" hash="d6512ab7645eab3c191763ee217bfc61"/></dir><dir name="etc"><file name="adminhtml.xml" hash="1ef6673386095b6c8a7a7aefb654951b"/><file name="config.xml" hash="afb980810ed18c9519ce79de487498e3"/><file name="system.xml" hash="e1bd10da3775fc2e9516e31c159657ca"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Reviewscouk_Reviews.xml" hash="347761ff6c475622697073d62f52e014"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="reviews"><file name="dashboard.phtml" hash="925eeb5ee6bee1c7bf973f60008c1f3f"/><file name="export.phtml" hash="ab1225207cd4631941735c9a99594b65"/></dir></dir><dir name="layout"><file name="reviews_admin.xml" hash="3cdd4facfeb240634d81843cae1a5325"/></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="reviews_layout.xml" hash="1743a1ae2a9e81fbdeb55f1b43a4b487"/></dir><dir name="template"><dir name="reviews"><file name="product_reviews_widget.phtml" hash="3847d66e58638813eb3391c1fc49a683"/><file name="rich_snippet.phtml" hash="6e9381dc88d32275f36a53017d04e06e"/><file name=".DS_Store" hash="4fe84b7db7aa067d7fd4b3ee082e4b2f"/></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="en_GB"><file name="Reviewscouk_Reviews.csv" hash="4a64b1cd02c3e438d8489e36580dec0c"/></dir><dir name="fr_FR"><file name="Reviewscouk_Reviews.csv" hash="6c21952ba2444d065a431fb147234f07"/></dir></target></contents>
+    <date>2016-07-15</date>
+    <time>11:21:38</time>
+    <contents><target name="magecommunity"><dir name="Reviewscouk"><dir name="Reviews"><dir name="Adminhtml"><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="Region.php" hash="65d7d2f061114099282e40a5353dc6a9"/><file name="Widget.php" hash="c7571f25487b816796e3bf7b8c502f44"/></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="a5c33a7d0958a9b224e52b2fa2811242"/></dir><dir name="Model"><file name="Observer.php" hash="625a3b0d0cccb42e8204568df78ce7d5"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="ReviewsController.php" hash="c39e013894681ece3d886041637cc1da"/></dir><file name="IndexController.php" hash="d6512ab7645eab3c191763ee217bfc61"/></dir><dir name="etc"><file name="adminhtml.xml" hash="1ef6673386095b6c8a7a7aefb654951b"/><file name="config.xml" hash="afb980810ed18c9519ce79de487498e3"/><file name="system.xml" hash="e1bd10da3775fc2e9516e31c159657ca"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Reviewscouk_Reviews.xml" hash="347761ff6c475622697073d62f52e014"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="reviews"><file name="dashboard.phtml" hash="925eeb5ee6bee1c7bf973f60008c1f3f"/><file name="export.phtml" hash="ab1225207cd4631941735c9a99594b65"/></dir></dir><dir name="layout"><file name="reviews_admin.xml" hash="3cdd4facfeb240634d81843cae1a5325"/></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="reviews_layout.xml" hash="2b1883be07a02d65796650af5b59caa2"/></dir><dir name="template"><dir name="reviews"><file name="product_reviews_widget.phtml" hash="3847d66e58638813eb3391c1fc49a683"/><file name="rich_snippet.phtml" hash="6e9381dc88d32275f36a53017d04e06e"/><file name=".DS_Store" hash="4fe84b7db7aa067d7fd4b3ee082e4b2f"/></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="en_GB"><file name="Reviewscouk_Reviews.csv" hash="4a64b1cd02c3e438d8489e36580dec0c"/></dir><dir name="fr_FR"><file name="Reviewscouk_Reviews.csv" hash="6c21952ba2444d065a431fb147234f07"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
