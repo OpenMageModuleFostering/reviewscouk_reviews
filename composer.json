@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/reviewscouk_reviews",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "Reviews.co.uk Integration Plugin",
+    "authors": [
+    {
+        "name": "Liam Keily",
+        "email": "liam@reviews.co.uk"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
