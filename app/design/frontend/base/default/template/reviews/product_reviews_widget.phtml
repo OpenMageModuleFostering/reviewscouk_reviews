@@ -42,12 +42,7 @@ if(!preg_match('/^#[a-f0-9]{6}$/i', $colour)) $colour = '#5db11f';
 <?php
 if($rich_snippets_enabled):
 ?>
-<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
-<span itemprop="itemReviewed"><?php echo Mage::registry('current_product')->getName(); ?></span>
-has a rating of <span itemprop="ratingValue">{{ product.metafields.reviewscouk.rating }}</span> stars
-based on <span itemprop="ratingCount">{{ product.metafields.reviewscouk.total }}</span> reviews.
-</div>
-</div>
+
 <?php
 endif;
 ?>
