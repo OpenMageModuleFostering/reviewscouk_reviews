@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/reviewscouk_reviews",
+    "name": "OpenMageModuleFostering\/reviewscouk_reviews",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "Reviews.co.uk Integration Plugin",
     "authors": [
-    {
-        "name": "Reviews.co.uk",
-        "email": "liam@reviews.co.uk"
-    }
-],
+        {
+            "name": "Reviews.co.uk",
+            "email": "liam@reviews.co.uk"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
